@@ -12,6 +12,10 @@ import Operators from "../Screens/Javascript/Chapters/Operators";
 import StringMethods from "../Screens/Javascript/Chapters/StringMethods";
 import NumberMethods from "../Screens/Javascript/Chapters/NumberMethods";
 import DateAndTime from "../Screens/Javascript/Chapters/DateAndTime";
+import Functions from "../Screens/Javascript/Chapters/Functions";
+import Math from "../Screens/Javascript/Chapters/Math";
+import ConditionalStatements from "../Screens/Javascript/Chapters/ConditionalStatements";
+import Loops from "../Screens/Javascript/Chapters/Loops";
 
 const App = () => {
   return (
@@ -28,6 +32,10 @@ const App = () => {
           <Route path="/javascript/stringmethods" element={<StringMethods />} />
           <Route path="/javascript/numbermethods" element={<NumberMethods />} />
           <Route path="/javascript/dateandtime" element={<DateAndTime />} />
+          <Route path="/javascript/functions" element={<Functions />} />
+          <Route path="/javascript/math" element={<Math />} />
+          <Route path="/javascript/conditionalstatements" element={<ConditionalStatements />} />
+          <Route path="/javascript/loops" element={<Loops />} />
           <Route path="/python" element={<Python />} />
         </Route>
       </Routes>
