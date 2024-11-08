@@ -20,6 +20,10 @@ import Arrays from "../Screens/Javascript/Chapters/Arrays";
 import ArrayMethods from "../Screens/Javascript/Chapters/ArrayMethods";
 import Objects from "../Screens/Javascript/Chapters/Objects";
 import Events from "../Screens/Javascript/Chapters/Events";
+import DomManipulation from "../Screens/Javascript/Chapters/DomManipulation";
+import CssManipulation from "../Screens/Javascript/Chapters/CssManipulation";
+import ResponsiveWebDesign from "../Screens/Javascript/Chapters/ResponsiveWebDesign";
+import FormHandling from "../Screens/Javascript/Chapters/FormHandling";
 
 const App = () => {
   return (
@@ -44,6 +48,10 @@ const App = () => {
           <Route path="/javascript/arraymethods" element={<ArrayMethods />} />
           <Route path="/javascript/objects" element={<Objects />} />
           <Route path="/javascript/events" element={<Events />} />
+          <Route path="/javascript/dommanipulation" element={<DomManipulation />} />
+          <Route path="/javascript/cssmanipulation" element={<CssManipulation />} />
+          <Route path="/javascript/responsivewebdesign" element={<ResponsiveWebDesign />} />
+          <Route path="/javascript/formhandling" element={<FormHandling />} />
           <Route path="/python" element={<Python />} />
         </Route>
       </Routes>
