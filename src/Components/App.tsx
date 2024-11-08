@@ -8,6 +8,10 @@ import Variables from "../Screens/Javascript/Chapters/Variables";
 import Datatypes from "../Screens/Javascript/Chapters/Datatypes";
 import Comments from "../Screens/Javascript/Chapters/Comments";
 import Layout from "./Layout";
+import Operators from "../Screens/Javascript/Chapters/Operators";
+import StringMethods from "../Screens/Javascript/Chapters/StringMethods";
+import NumberMethods from "../Screens/Javascript/Chapters/NumberMethods";
+import DateAndTime from "../Screens/Javascript/Chapters/DateAndTime";
 
 const App = () => {
   return (
@@ -20,6 +24,10 @@ const App = () => {
           <Route path="/javascript/variables" element={<Variables />} />
           <Route path="/javascript/datatypes" element={<Datatypes />} />
           <Route path="/javascript/comments" element={<Comments />} />
+          <Route path="/javascript/operators" element={<Operators />} />
+          <Route path="/javascript/stringmethods" element={<StringMethods />} />
+          <Route path="/javascript/numbermethods" element={<NumberMethods />} />
+          <Route path="/javascript/dateandtime" element={<DateAndTime />} />
           <Route path="/python" element={<Python />} />
         </Route>
       </Routes>
