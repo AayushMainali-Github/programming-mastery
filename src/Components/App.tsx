@@ -16,6 +16,10 @@ import Functions from "../Screens/Javascript/Chapters/Functions";
 import Math from "../Screens/Javascript/Chapters/Math";
 import ConditionalStatements from "../Screens/Javascript/Chapters/ConditionalStatements";
 import Loops from "../Screens/Javascript/Chapters/Loops";
+import Arrays from "../Screens/Javascript/Chapters/Arrays";
+import ArrayMethods from "../Screens/Javascript/Chapters/ArrayMethods";
+import Objects from "../Screens/Javascript/Chapters/Objects";
+import Events from "../Screens/Javascript/Chapters/Events";
 
 const App = () => {
   return (
@@ -36,6 +40,10 @@ const App = () => {
           <Route path="/javascript/math" element={<Math />} />
           <Route path="/javascript/conditionalstatements" element={<ConditionalStatements />} />
           <Route path="/javascript/loops" element={<Loops />} />
+          <Route path="/javascript/arrays" element={<Arrays />} />
+          <Route path="/javascript/arraymethods" element={<ArrayMethods />} />
+          <Route path="/javascript/objects" element={<Objects />} />
+          <Route path="/javascript/events" element={<Events />} />
           <Route path="/python" element={<Python />} />
         </Route>
       </Routes>
