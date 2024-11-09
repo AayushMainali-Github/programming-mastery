@@ -24,6 +24,13 @@ import DomManipulation from "../Screens/Javascript/Chapters/DomManipulation";
 import CssManipulation from "../Screens/Javascript/Chapters/CssManipulation";
 import ResponsiveWebDesign from "../Screens/Javascript/Chapters/ResponsiveWebDesign";
 import FormHandling from "../Screens/Javascript/Chapters/FormHandling";
+import AsynchronousProgramming from "../Screens/Javascript/Chapters/AsynchronousProgramming";
+import PromisesAndFetchAPI from "../Screens/Javascript/Chapters/PromisesAndFetchAPI ";
+import AsyncAwait from "../Screens/Javascript/Chapters/AsyncAwait";
+import ErrorHandling from "../Screens/Javascript/Chapters/ErrorHandling";
+import LocalStorageSessionStorage from "../Screens/Javascript/Chapters/LocalStorageSessionStorage";
+import WebAPIsOverview from "../Screens/Javascript/Chapters/WebAPIsOverview";
+import ModulesAndImports from "../Screens/Javascript/Chapters/ModulesAndImports";
 
 const App = () => {
   return (
@@ -50,8 +57,15 @@ const App = () => {
           <Route path="/javascript/events" element={<Events />} />
           <Route path="/javascript/dommanipulation" element={<DomManipulation />} />
           <Route path="/javascript/cssmanipulation" element={<CssManipulation />} />
-          <Route path="/javascript/responsivewebdesign" element={<ResponsiveWebDesign />} />
+          <Route path="/javascript/responsivedesign" element={<ResponsiveWebDesign />} />
           <Route path="/javascript/formhandling" element={<FormHandling />} />
+          <Route path="/javascript/asynchronousprogramming" element={<AsynchronousProgramming />} />
+          <Route path="/javascript/promisesandfetchapi" element={<PromisesAndFetchAPI />} />
+          <Route path="/javascript/asyncawait" element={<AsyncAwait />} />
+          <Route path="/javascript/errorhandling" element={<ErrorHandling />} />
+          <Route path="/javascript/modulesandimports" element={<ModulesAndImports />} />
+          <Route path="/javascript/localstorage" element={<LocalStorageSessionStorage />} />
+          <Route path="/javascript/webapisoverview" element={<WebAPIsOverview />} />
           <Route path="/python" element={<Python />} />
         </Route>
       </Routes>
@@ -60,3 +74,16 @@ const App = () => {
 };
 
 export default App;
+
+// Asynchronous Programming
+// Promises and Fetch API
+// Async/Await
+// Error Handling
+// Modules and Imports
+// Local Storage and Session Storage
+// Web APIs Overview
+// JSON and Data Parsing
+// Regular Expressions
+// Event Delegation
+// Timers and Intervals
+// Working with Canvas API

@@ -21,6 +21,13 @@ import DomManipulation from "../../Assets/Javascript/dommanipulation.png";
 import CssManipulation from "../../Assets/Javascript/cssmanipulation.png";
 import ResponsiveWebDesign from "../../Assets/Javascript/responsivewebdesign.png";
 import FormHandling from "../../Assets/Javascript/formhandling.png";
+import AsynchronousProgramming from "../../Assets/Javascript/asynchronousprogramming.png";
+import PromisesAndFetchAPI from "../../Assets/Javascript/promisesandfetchapi.png";
+import AsyncAwait from "../../Assets/Javascript/asyncawait.png";
+import ErrorHandling from "../../Assets/Javascript/errorhandling.png";
+import ModulesAndImports from "../../Assets/Javascript/modulesandimport.png";
+import LocalStorageSessionStorage from "../../Assets/Javascript/localstorageandsessionstorage.png";
+import WebAPIsOverview from "../../Assets/Javascript/webapisoverview.png";
 
 const Javascript = () => {
   return (
@@ -56,8 +63,15 @@ const Javascript = () => {
       <div className="items">
         <Item image={DomManipulation} title="Dom Manipulation" link="dommanipulation" />
         <Item image={CssManipulation} title="Css Manipulation" link="cssmanipulation" />
-        <Item image={ResponsiveWebDesign} title="Responsive Web Design" link="responsivewebdesign" />
+        <Item image={ResponsiveWebDesign} title="Responsive Web Design" link="responsivedesign" />
         <Item image={FormHandling} title="Form Handling" link="formhandling" />
+        <Item image={AsynchronousProgramming} title="Asynchronous Programming" link="asynchronousprogramming" />
+        <Item image={PromisesAndFetchAPI} title="Promises and Fetch API" link="promisesandfetchapi" />
+        <Item image={AsyncAwait} title="Async/Await" link="asyncawait" />
+        <Item image={ErrorHandling} title="Error Handling" link="errorhandling" />
+        <Item image={ModulesAndImports} title="Modules and Imports" link="modulesandimports" />
+        <Item image={LocalStorageSessionStorage} title="Local Storage and Session Storage" link="localstorage" />
+        <Item image={WebAPIsOverview} title="Web APIs Overview" link="webapisoverview" />
       </div>
     </div>
   );

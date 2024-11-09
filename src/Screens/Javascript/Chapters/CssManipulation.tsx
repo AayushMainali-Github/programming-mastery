@@ -141,7 +141,7 @@ animateButton.addEventListener("click", function() {
           </li>
         </ul>
 
-        <Bottom back="/javascript/dommanipulation" next="/javascript/responsivewebdesign" />
+        <Bottom back="/javascript/dommanipulation" next="/javascript/responsivedesign" />
       </div>
     </div>
   );
