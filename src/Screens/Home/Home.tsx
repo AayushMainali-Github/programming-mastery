@@ -2,6 +2,7 @@ import React from "react";
 import Laptop from "../../Assets/bg.png";
 import Javascript from "../../Assets/Home/javascript.png";
 import Python from "../../Assets/Home/python.png";
+import C from "../../Assets/Home/c.png";
 import Item from "../../Components/Item";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <div className="items">
         <Item image={Javascript} title="Javascript" link="javascript" />
         <Item image={Python} title="Python" link="python" />
+        <Item image={C} title="C" link="c" />
       </div>
     </div>
   );
