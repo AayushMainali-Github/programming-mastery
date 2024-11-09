@@ -71,7 +71,7 @@ import RegularExpressions from "../Screens/Python/Chapters/RegularExpressions";
 import CIntroduction from "../Screens/C/Chapters/Introduction";
 import CEnvironmentSetup from "../Screens/C/Chapters/EnvironmentSetup";
 import CSyntax from "../Screens/C/Chapters/Syntax";
-import CVariables from "../Screens/C/Chapters/Variables.tsx";
+import CVariables from "../Screens/C/Chapters/Variables";
 import CInputOutput from "../Screens/C/Chapters/InputOutput";
 import COperators from "../Screens/C/Chapters/Operators";
 import CConditionalStatements from "../Screens/C/Chapters/ConditionalStatements";
