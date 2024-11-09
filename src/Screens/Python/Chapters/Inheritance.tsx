@@ -126,7 +126,7 @@ print(isinstance(dog, Cat))     # Output: False`}</Code>
 print(issubclass(Cat, Animal))  # Output: True
 print(issubclass(Animal, Dog))  # Output: False`}</Code>
 
-        <Bottom back="/python/oop" next="/python/advancedtopics" />
+        <Bottom back="/python/oop" next="/python/advancedfunctions" />
       </div>
     </div>
   );
