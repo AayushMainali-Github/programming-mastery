@@ -8,6 +8,10 @@ const Layout = () => {
   }, [location]);
   return (
     <>
+      <title>
+        Programming Mastery |{" "}
+        {location.pathname === "/" ? "Languages" : location.pathname.startsWith("/javascript") ? "Javascript" : location.pathname.startsWith("/python") ? "Python" : ""}
+      </title>
       <Outlet />
     </>
   );

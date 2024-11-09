@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../Screens/Home/Home";
 import Javascript from "../Screens/Javascript/Javascript";
 import Python from "../Screens/Python/Python";
+import C from "../Screens/C/C";
 import Layout from "./Layout";
 
 // JavaScript Chapter Imports
@@ -65,6 +66,20 @@ import JSONCSV from "../Screens/Python/Chapters/JSONCSV";
 import CustomExceptions from "../Screens/Python/Chapters/CustomExceptions";
 import DateTimeHandling from "../Screens/Python/Chapters/DateTimeHandling";
 import RegularExpressions from "../Screens/Python/Chapters/RegularExpressions";
+
+// C Chapter Imports
+import CIntroduction from "../Screens/C/Chapters/Introduction";
+import CEnvironmentSetup from "../Screens/C/Chapters/EnvironmentSetup";
+import CSyntax from "../Screens/C/Chapters/Syntax";
+import CVariables from "../Screens/C/Chapters/Variables.tsx";
+import CInputOutput from "../Screens/C/Chapters/InputOutput";
+import COperators from "../Screens/C/Chapters/Operators";
+import CConditionalStatements from "../Screens/C/Chapters/ConditionalStatements";
+import CLoops from "../Screens/C/Chapters/Loops";
+import CFunctions from "../Screens/C/Chapters/Functions";
+import CArraysStrings from "../Screens/C/Chapters/ArraysStrings";
+import CPointers from "../Screens/C/Chapters/Pointers";
+import CFileHandling from "../Screens/C/Chapters/FileHandling";
 
 const App = () => {
   return (
@@ -135,6 +150,21 @@ const App = () => {
           <Route path="/python/customexceptions" element={<CustomExceptions />} />
           <Route path="/python/datetimehandling" element={<DateTimeHandling />} />
           <Route path="/python/regex" element={<RegularExpressions />} />
+
+          {/* C Programming Routes */}
+          <Route path="/c" element={<C />} />
+          <Route path="/c/introduction" element={<CIntroduction />} />
+          <Route path="/c/environmentsetup" element={<CEnvironmentSetup />} />
+          <Route path="/c/syntax" element={<CSyntax />} />
+          <Route path="/c/variables" element={<CVariables />} />
+          <Route path="/c/inputoutput" element={<CInputOutput />} />
+          <Route path="/c/operators" element={<COperators />} />
+          <Route path="/c/conditionalstatements" element={<CConditionalStatements />} />
+          <Route path="/c/loops" element={<CLoops />} />
+          <Route path="/c/functions" element={<CFunctions />} />
+          <Route path="/c/arraysstrings" element={<CArraysStrings />} />
+          <Route path="/c/pointers" element={<CPointers />} />
+          <Route path="/c/filehandling" element={<CFileHandling />} />
         </Route>
       </Routes>
     </BrowserRouter>
