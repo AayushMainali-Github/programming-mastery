@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Programming Mastery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+**Programming Mastery** is an educational platform designed to provide a comprehensive learning experience for programming enthusiasts. It covers multiple programming languages, focusing on both fundamental and intermediate topics, allowing learners to build a strong foundation and advance their skills. The platform features structured lessons, interactive content, and practical examples to guide learners at every step.
 
-## Available Scripts
+## Project Structure
+Programming Mastery includes courses for popular programming languages, currently featuring:
 
-In the project directory, you can run:
+- **JavaScript**: A full curriculum covering fundamental concepts such as variables, data types, and DOM manipulation, as well as intermediate topics like asynchronous programming, Promises, and working with APIs.
+- **Python**: A complete guide that starts from the basics, like syntax and variables, and progresses to more advanced topics such as decorators, generators, and handling JSON and CSV files.
+- **C**: A focused course covering essential C programming concepts, including syntax, file handling, pointers, and data structures.
 
-### `npm start`
+Each course is divided into chapters with clear explanations, code examples, and best practices to reinforce learning.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
+- **Interactive Lessons**: Each chapter includes theoretical explanations, code snippets, and practical examples to facilitate a deeper understanding of the topic.
+- **Modular Structure**: The platform is built with React components, making it easy to add new courses or chapters and customize content.
+- **User-Friendly Navigation**: Learners can seamlessly navigate between courses and chapters, following a logical learning path or jumping directly to topics of interest.
+- **Modern Design**: The project uses React and related technologies to provide a responsive, intuitive user interface.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Structure in React
+The project follows a structured organization for scalability:
+- **Screens**: Contains individual folders for each course (e.g., `Javascript`, `Python`, `C`) with subfolders for each chapter.
+- **Components**: Houses reusable UI components like `Item` and `Bottom` for consistent page layout and navigation.
+- **App.js**: Configures `react-router-dom` routes to handle navigation across courses and chapters.
+- **Assets**: Stores images and visual elements used throughout the courses.
 
-### `npm test`
+## Courses and Chapters
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### JavaScript Course
+- **Fundamentals**: Covers topics such as Introduction, Variables, Data Types, Functions, Conditional Statements, Loops, Arrays, etc.
+- **Intermediate**: Includes advanced topics like DOM Manipulation, CSS Manipulation, Asynchronous Programming, Promises, Fetch API, and more.
 
-### `npm run build`
+### Python Course
+- **Fundamentals**: Topics include Introduction, Variables, Data Types, Operators, Input/Output, Loops, File Handling, etc.
+- **Intermediate**: Covers OOP concepts, List Comprehensions, Decorators, External Libraries, Modules, and Handling JSON/CSV files.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### C Course
+- **Fundamentals**: Focuses on essential topics such as Introduction, Environment Setup, Basic Syntax, Variables, Operators, Conditional Statements, Loops, Functions, Arrays and Strings, Pointers, and File Handling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Website Link
+https://programmingmastery.pages.dev/
