@@ -1,5 +1,6 @@
 import React from "react";
 import Bottom from "../../../Components/Bottom";
+import { Link } from "react-router-dom"; // Ensure you import Link from react-router-dom
 import { Prism as Code } from "react-syntax-highlighter";
 import { materialDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
@@ -16,9 +17,9 @@ const EnvironmentSetup = () => {
         <div className="subHeader">Step 1: Downloading Python</div>
         <div className="description">
           Go to the official Python website at{" "}
-          <a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">
+          <Link className="link" to="https://www.python.org/downloads/">
             python.org/downloads
-          </a>{" "}
+          </Link>{" "}
           and download the latest version of Python for your operating system (Windows, macOS, or Linux).
         </div>
 
@@ -45,23 +46,23 @@ const EnvironmentSetup = () => {
         <ul className="list">
           <li>
             <b>Visual Studio Code (VS Code)</b>: A free, powerful, and customizable code editor. Download it from{" "}
-            <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
-              code.visualstudio.com
-            </a>
+            <Link className="link" to="https://code.visualstudio.com/">
+              Visual Studio Code
+            </Link>
             .
           </li>
           <li>
             <b>PyCharm</b>: A full-featured IDE specifically for Python development. Download it from{" "}
-            <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer">
-              jetbrains.com/pycharm
-            </a>
+            <Link className="link" to="https://www.jetbrains.com/pycharm/">
+              PyCharm
+            </Link>
             .
           </li>
           <li>
             <b>Sublime Text</b>: A lightweight editor with Python support. Download it from{" "}
-            <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">
-              sublimetext.com
-            </a>
+            <Link className="link" to="https://www.sublimetext.com/">
+              Sublime Text
+            </Link>
             .
           </li>
         </ul>
