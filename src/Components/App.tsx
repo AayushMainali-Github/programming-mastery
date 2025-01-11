@@ -10,7 +10,7 @@ import Python from "../Screens/Python/Python";
 import C from "../Screens/C/C";
 import Cpp from "../Screens/Cpp/Cpp";
 import Java from "../Screens/Java/Java";
-import Sql from "../Screens/SQL/Sql";
+import Sql from "../Screens/SQL/SQL";
 import Layout from "./Layout";
 
 // JavaScript Chapter Imports
