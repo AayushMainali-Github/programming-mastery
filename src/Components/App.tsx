@@ -1,9 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../Screens/Home/Home";
+import HTML from "../Screens/HTML/HTML";
+import CSS from "../Screens/CSS/CSS";
 import Javascript from "../Screens/Javascript/Javascript";
+import NodeJS from "../Screens/NodeJS/NodeJS";
+import Typescript from "../Screens/Typescript/Typescript";
 import Python from "../Screens/Python/Python";
 import C from "../Screens/C/C";
+import Cpp from "../Screens/Cpp/Cpp";
+import Java from "../Screens/Java/Java";
+import Sql from "../Screens/SQL/Sql";
 import Layout from "./Layout";
 
 // JavaScript Chapter Imports
@@ -88,6 +95,12 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
 
+          {/* HTML Routes */}
+          <Route path="/html" element={<HTML />} />
+
+          {/* CSS Routes */}
+          <Route path="/css" element={<CSS />} />
+
           {/* JavaScript Routes */}
           <Route path="/javascript" element={<Javascript />} />
           <Route path="/javascript/introduction" element={<Introduction />} />
@@ -117,6 +130,12 @@ const App = () => {
           <Route path="/javascript/modulesandimports" element={<ModulesAndImports />} />
           <Route path="/javascript/localstorage" element={<LocalStorageSessionStorage />} />
           <Route path="/javascript/webapisoverview" element={<WebAPIsOverview />} />
+
+          {/* Node JS Routes */}
+          <Route path="/nodejs" element={<NodeJS />} />
+
+          {/* Typescript Routes */}
+          <Route path="/typescript" element={<Typescript />} />
 
           {/* Python Routes */}
           <Route path="/python" element={<Python />} />
@@ -165,6 +184,15 @@ const App = () => {
           <Route path="/c/arraysstrings" element={<CArraysStrings />} />
           <Route path="/c/pointers" element={<CPointers />} />
           <Route path="/c/filehandling" element={<CFileHandling />} />
+
+          {/* C++ Routes */}
+          <Route path="/cpp" element={<Cpp />} />
+
+          {/* Java Routes */}
+          <Route path="/java" element={<Java />} />
+
+          {/* SQL Routes */}
+          <Route path="/sql" element={<Sql />} />
         </Route>
       </Routes>
     </BrowserRouter>
