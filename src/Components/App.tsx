@@ -87,6 +87,8 @@ import CFunctions from "../Screens/C/Chapters/Functions";
 import CArraysStrings from "../Screens/C/Chapters/ArraysStrings";
 import CPointers from "../Screens/C/Chapters/Pointers";
 import CFileHandling from "../Screens/C/Chapters/FileHandling";
+import Maintenance from "../Screens/Misc/Maintenance";
+import Error from "../Screens/Misc/Error";
 
 const App = () => {
   return (
@@ -96,10 +98,10 @@ const App = () => {
           <Route index element={<Home />} />
 
           {/* HTML Routes */}
-          <Route path="/html" element={<HTML />} />
+          <Route path="/html" element={<Maintenance />} />
 
           {/* CSS Routes */}
-          <Route path="/css" element={<CSS />} />
+          <Route path="/css" element={<Maintenance />} />
 
           {/* JavaScript Routes */}
           <Route path="/javascript" element={<Javascript />} />
@@ -132,10 +134,10 @@ const App = () => {
           <Route path="/javascript/webapisoverview" element={<WebAPIsOverview />} />
 
           {/* Node JS Routes */}
-          <Route path="/nodejs" element={<NodeJS />} />
+          <Route path="/nodejs" element={<Maintenance />} />
 
           {/* Typescript Routes */}
-          <Route path="/typescript" element={<Typescript />} />
+          <Route path="/typescript" element={<Maintenance />} />
 
           {/* Python Routes */}
           <Route path="/python" element={<Python />} />
@@ -186,13 +188,16 @@ const App = () => {
           <Route path="/c/filehandling" element={<CFileHandling />} />
 
           {/* C++ Routes */}
-          <Route path="/cpp" element={<Cpp />} />
+          <Route path="/cpp" element={<Maintenance />} />
 
           {/* Java Routes */}
-          <Route path="/java" element={<Java />} />
+          <Route path="/java" element={<Maintenance />} />
 
           {/* SQL Routes */}
-          <Route path="/sql" element={<Sql />} />
+          <Route path="/sql" element={<Maintenance />} />
+
+          {/* Error */}
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
