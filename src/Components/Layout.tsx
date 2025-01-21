@@ -1,6 +1,20 @@
 import React, { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
+const paths: Record<string, string> = {
+  "": "Languages",
+  html: "HTML",
+  css: "CSS",
+  javascript: "Javascript",
+  nodejs: "Node JS",
+  typescript: "Typescript",
+  python: "Python",
+  c: "C",
+  cpp: "C++",
+  java: "Java",
+  sql: "SQL",
+};
+
 const Layout = () => {
   const location = useLocation();
   useEffect(() => {
@@ -8,10 +22,7 @@ const Layout = () => {
   }, [location]);
   return (
     <>
-      <title>
-        Programming Mastery |{" "}
-        {location.pathname === "/" ? "Languages" : location.pathname.startsWith("/javascript") ? "Javascript" : location.pathname.startsWith("/python") ? "Python" : ""}
-      </title>
+      <title>Programming Mastery | {paths[location.pathname.split("/")[1]] || "Not Found"}</title>
       <Outlet />
     </>
   );
