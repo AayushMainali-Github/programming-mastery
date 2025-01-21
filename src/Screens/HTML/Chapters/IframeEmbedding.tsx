@@ -98,7 +98,7 @@ const HTMLIframeEmbedding = () => {
           <li>Use responsive designs to ensure iframe content fits across different devices.</li>
         </ul>
 
-        <Bottom back="/html/datatable" next="/html/formsadvanced" />
+        <Bottom back="/html/data-tables" next="/html/global-attributes" />
       </div>
     </div>
   );

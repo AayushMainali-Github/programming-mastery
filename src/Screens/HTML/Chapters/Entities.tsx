@@ -83,7 +83,7 @@ const HTMLEntities = () => {
           <li>For special symbols or emojis, use Unicode entities for better compatibility.</li>
         </ul>
 
-        <Bottom back="/html/globalattributes" next="/html/formsadvanced" />
+        <Bottom back="/html/global-attributes" next="/html/aria-attributes" />
       </div>
     </div>
   );

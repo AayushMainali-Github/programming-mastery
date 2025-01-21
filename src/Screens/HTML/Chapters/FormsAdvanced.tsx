@@ -116,7 +116,7 @@ const HTMLFormsAdvanced = () => {
           <li>Ensure form fields are accessible and labeled properly.</li>
         </ul>
 
-        <Bottom back="/html/forms" next="/html/responsive" />
+        <Bottom back="/html/media-elements" next="/html/data-tables" />
       </div>
     </div>
   );

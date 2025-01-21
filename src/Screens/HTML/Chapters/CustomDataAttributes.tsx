@@ -85,7 +85,7 @@ buttons.forEach(button => {
           <li>Prefer custom data attributes over embedding inline JavaScript for dynamic behavior.</li>
         </ul>
 
-        <Bottom back="/html/anchortargets" next="/html/formsadvanced" />
+        <Bottom back="/html/anchor-targets" next="/html/best-practices" />
       </div>
     </div>
   );

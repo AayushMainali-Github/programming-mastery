@@ -88,7 +88,7 @@ const HTMLIntroduction = () => {
           <li>Organize your code with proper indentation for readability.</li>
         </ul>
 
-        <Bottom back="/home" next="/html/basicstructure" />
+        <Bottom back="/html" next="/html/basic-document-structure" />
       </div>
     </div>
   );

@@ -117,7 +117,7 @@ contact us.html`}</Code>
 └── fonts/
     └── custom-font.woff`}</Code>
 
-        <Bottom back="/html/bestpractices" next="/html/formsadvanced" />
+        <Bottom back="/html/best-practices" next="/html" />
       </div>
     </div>
   );

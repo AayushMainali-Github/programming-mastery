@@ -84,7 +84,7 @@ const HTMLImages = () => {
           <li>Use meaningful file names and paths for easier maintenance.</li>
         </ul>
 
-        <Bottom back="/html/linksanchors" next="/html/tables" />
+        <Bottom back="/html/links-and-anchors" next="/html/tables" />
       </div>
     </div>
   );

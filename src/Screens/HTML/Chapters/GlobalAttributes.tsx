@@ -97,7 +97,7 @@ const HTMLGlobalAttributes = () => {
           </li>
         </ul>
 
-        <Bottom back="/html/iframes" next="/html/formsadvanced" />
+        <Bottom back="/html/iframe-embedding" next="/html/html-entities" />
       </div>
     </div>
   );

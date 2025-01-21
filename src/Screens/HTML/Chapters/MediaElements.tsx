@@ -97,7 +97,7 @@ const HTMLMediaElements = () => {
           <li>Avoid autoplay for videos with sound to prevent disrupting the user experience.</li>
         </ul>
 
-        <Bottom back="/html/html5elements" next="/html/accessibility" />
+        <Bottom back="/html/html5-elements" next="/html/forms-advanced" />
       </div>
     </div>
   );

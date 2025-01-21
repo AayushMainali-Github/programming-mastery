@@ -13,6 +13,30 @@ import Java from "../Screens/Java/Java";
 import Sql from "../Screens/SQL/SQL";
 import Layout from "./Layout";
 
+// HTML Chapter Imports
+import HTMLIntroduction from "../Screens/HTML/Chapters/Introduction";
+import BasicStructure from "../Screens/HTML/Chapters/BasicStructure";
+import HeadingsParagraphs from "../Screens/HTML/Chapters/HeadingsParagraphs";
+import HTMLLists from "../Screens/HTML/Chapters/Lists";
+import LinksAnchors from "../Screens/HTML/Chapters/LinksAnchors";
+import Images from "../Screens/HTML/Chapters/Images";
+import Tables from "../Screens/HTML/Chapters/Tables";
+import Forms from "../Screens/HTML/Chapters/Forms";
+import SemanticElements from "../Screens/HTML/Chapters/Semantic";
+import AttributesMetadata from "../Screens/HTML/Chapters/AttributesMetadata";
+import HTML5Elements from "../Screens/HTML/Chapters/HTML5Elements";
+import MediaElements from "../Screens/HTML/Chapters/MediaElements";
+import FormsAdvanced from "../Screens/HTML/Chapters/FormsAdvanced";
+import DataTables from "../Screens/HTML/Chapters/DataTables";
+import IframeEmbedding from "../Screens/HTML/Chapters/IframeEmbedding";
+import GlobalAttributes from "../Screens/HTML/Chapters/GlobalAttributes";
+import Entities from "../Screens/HTML/Chapters/Entities";
+import ARIAAttributes from "../Screens/HTML/Chapters/ARIAAttributes";
+import AnchorTargets from "../Screens/HTML/Chapters/AnchorTargets";
+import CustomDataAttributes from "../Screens/HTML/Chapters/CustomDataAttributes";
+import BestPractices from "../Screens/HTML/Chapters/BestPractices";
+import FileOrganization from "../Screens/HTML/Chapters/FileOrganization";
+
 // JavaScript Chapter Imports
 import Introduction from "../Screens/Javascript/Chapters/Introduction";
 import Variables from "../Screens/Javascript/Chapters/Variables";
@@ -98,7 +122,29 @@ const App = () => {
           <Route index element={<Home />} />
 
           {/* HTML Routes */}
-          <Route path="/html" element={<Maintenance />} />
+          <Route path="/html" element={<HTML />} />
+          <Route path="/html/introduction-to-html" element={<HTMLIntroduction />} />
+          <Route path="/html/basic-document-structure" element={<BasicStructure />} />
+          <Route path="/html/headings-and-paragraphs" element={<HeadingsParagraphs />} />
+          <Route path="/html/lists" element={<HTMLLists />} />
+          <Route path="/html/links-and-anchors" element={<LinksAnchors />} />
+          <Route path="/html/images" element={<Images />} />
+          <Route path="/html/tables" element={<Tables />} />
+          <Route path="/html/forms" element={<Forms />} />
+          <Route path="/html/semantic-elements" element={<SemanticElements />} />
+          <Route path="/html/attributes-and-metadata" element={<AttributesMetadata />} />
+          <Route path="/html/html5-elements" element={<HTML5Elements />} />
+          <Route path="/html/media-elements" element={<MediaElements />} />
+          <Route path="/html/forms-advanced" element={<FormsAdvanced />} />
+          <Route path="/html/data-tables" element={<DataTables />} />
+          <Route path="/html/iframe-embedding" element={<IframeEmbedding />} />
+          <Route path="/html/global-attributes" element={<GlobalAttributes />} />
+          <Route path="/html/html-entities" element={<Entities />} />
+          <Route path="/html/aria-attributes" element={<ARIAAttributes />} />
+          <Route path="/html/anchor-targets" element={<AnchorTargets />} />
+          <Route path="/html/custom-data-attributes" element={<CustomDataAttributes />} />
+          <Route path="/html/best-practices" element={<BestPractices />} />
+          <Route path="/html/html-file-organization" element={<FileOrganization />} />
 
           {/* CSS Routes */}
           <Route path="/css" element={<Maintenance />} />

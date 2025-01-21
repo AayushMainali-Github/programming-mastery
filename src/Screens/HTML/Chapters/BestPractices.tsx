@@ -109,7 +109,7 @@ const HTMLBestPractices = () => {
           <li>Ensure all interactive elements are keyboard accessible.</li>
         </ul>
 
-        <Bottom back="/html/customdata" next="/html/formsadvanced" />
+        <Bottom back="/html/custom-data-attributes" next="/html/html-file-organization" />
       </div>
     </div>
   );

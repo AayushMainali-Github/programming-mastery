@@ -105,7 +105,7 @@ const HTMLLists = () => {
           <li>Keep nested lists clear and avoid excessive levels for readability.</li>
         </ul>
 
-        <Bottom back="/html/headingsparagraphs" next="/html/linksanchors" />
+        <Bottom back="/html/headings-and-paragraphs" next="/html/links-and-anchors" />
       </div>
     </div>
   );

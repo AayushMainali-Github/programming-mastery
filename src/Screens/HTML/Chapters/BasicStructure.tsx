@@ -83,7 +83,7 @@ const HTMLBasicStructure = () => {
           <li>Use semantic tags wherever possible to improve accessibility and SEO.</li>
         </ul>
 
-        <Bottom back="/html/introduction" next="/html/headingsparagraphs" />
+        <Bottom back="/html/introduction-to-html" next="/html/headings-and-paragraphs" />
       </div>
     </div>
   );

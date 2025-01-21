@@ -108,7 +108,7 @@ const HTMLARIAAttributes = () => {
           <li>Test your webpage with screen readers to verify the effectiveness of ARIA attributes.</li>
         </ul>
 
-        <Bottom back="/html/entities" next="/html/formsadvanced" />
+        <Bottom back="/html/html-entities" next="/html/anchor-targets" />
       </div>
     </div>
   );

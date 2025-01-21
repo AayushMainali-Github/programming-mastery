@@ -108,7 +108,7 @@ const HTMLForms = () => {
           <li>Validate user input on both the client and server side for security.</li>
         </ul>
 
-        <Bottom back="/html/tables" next="/html/semantic" />
+        <Bottom back="/html/tables" next="/html/semantic-elements" />
       </div>
     </div>
   );

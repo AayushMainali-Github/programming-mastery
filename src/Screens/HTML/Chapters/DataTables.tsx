@@ -137,7 +137,7 @@ const HTMLDataTables = () => {
           </li>
         </ul>
 
-        <Bottom back="/html/formsadvanced" next="/html/forms" />
+        <Bottom back="/html/forms-advanced" next="/html/iframe-embedding" />
       </div>
     </div>
   );

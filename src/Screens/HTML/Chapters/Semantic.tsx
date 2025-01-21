@@ -101,7 +101,7 @@ const HTMLSemanticElements = () => {
           <li>Combine semantic tags with appropriate CSS classes for better styling and structure.</li>
         </ul>
 
-        <Bottom back="/html/forms" next="/html/iframes" />
+        <Bottom back="/html/forms" next="/html/attributes-and-metadata" />
       </div>
     </div>
   );

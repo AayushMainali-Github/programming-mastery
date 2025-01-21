@@ -89,7 +89,7 @@ const HTMLAnchorTargets = () => {
           </li>
         </ul>
 
-        <Bottom back="/html/ariaattributes" next="/html/formsadvanced" />
+        <Bottom back="/html/aria-attributes" next="/html/custom-data-attributes" />
       </div>
     </div>
   );

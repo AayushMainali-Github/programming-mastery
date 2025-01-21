@@ -57,7 +57,7 @@ const HTMLHeadingsParagraphs = () => {
           <li>Keep paragraphs concise and focused to improve readability.</li>
         </ul>
 
-        <Bottom back="/html/basicstructure" next="/html/lists" />
+        <Bottom back="/html/basic-document-structure" next="/html/lists" />
       </div>
     </div>
   );

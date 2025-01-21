@@ -115,7 +115,7 @@ const HTML5Elements = () => {
           <li>Combine HTML5 elements to create a clear and meaningful document structure.</li>
         </ul>
 
-        <Bottom back="/html/attributesmetadata" next="/html/mediaelements" />
+        <Bottom back="/html/attributes-and-metadata" next="/html/media-elements" />
       </div>
     </div>
   );
