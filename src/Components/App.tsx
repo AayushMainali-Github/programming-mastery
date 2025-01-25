@@ -37,6 +37,32 @@ import CustomDataAttributes from "../Screens/HTML/Chapters/CustomDataAttributes"
 import BestPractices from "../Screens/HTML/Chapters/BestPractices";
 import FileOrganization from "../Screens/HTML/Chapters/FileOrganization";
 
+// CSS Chapter Imports
+import CSSIntroduction from "../Screens/CSS/Chapters/Introduction";
+import CSSSyntaxAndSelectors from "../Screens/CSS/Chapters/SyntaxAndSelectors";
+import ColorsAndBackgrounds from "../Screens/CSS/Chapters/ColorsAndBackgrounds";
+import TextStyling from "../Screens/CSS/Chapters/TextStyling";
+import BoxModel from "../Screens/CSS/Chapters/BoxModel";
+import Positioning from "../Screens/CSS/Chapters/Positioning";
+import FlexboxBasics from "../Screens/CSS/Chapters/FlexboxBasics";
+import GridBasics from "../Screens/CSS/Chapters/GridBasics";
+import CSSUnits from "../Screens/CSS/Chapters/Units";
+import LinksAndButtons from "../Screens/CSS/Chapters/LinksAndButtons";
+import ListsStyling from "../Screens/CSS/Chapters/ListsStyling";
+import FormsStyling from "../Screens/CSS/Chapters/FormsStyling";
+import MediaQueries from "../Screens/CSS/Chapters/MediaQueries";
+import AdvancedSelectors from "../Screens/CSS/Chapters/AdvancedSelectors";
+import CSSVariables from "../Screens/CSS/Chapters/Variables";
+import TransitionsAndAnimations from "../Screens/CSS/Chapters/TransitionsAndAnimations";
+import Transformations from "../Screens/CSS/Chapters/Transformations";
+import AdvancedFlexbox from "../Screens/CSS/Chapters/AdvancedFlexbox";
+import AdvancedGrid from "../Screens/CSS/Chapters/AdvancedGrid";
+import CustomFontsAndTypography from "../Screens/CSS/Chapters/CustomFontsAndTypography";
+import SpecificityAndInheritance from "../Screens/CSS/Chapters/SpecificityAndInheritance";
+import ShadowEffects from "../Screens/CSS/Chapters/ShadowEffects";
+import ClippingAndMasking from "../Screens/CSS/Chapters/ClippingAndMasking";
+import CSSFrameworks from "../Screens/CSS/Chapters/Frameworks";
+
 // JavaScript Chapter Imports
 import Introduction from "../Screens/Javascript/Chapters/Introduction";
 import Variables from "../Screens/Javascript/Chapters/Variables";
@@ -147,7 +173,31 @@ const App = () => {
           <Route path="/html/html-file-organization" element={<FileOrganization />} />
 
           {/* CSS Routes */}
-          <Route path="/css" element={<Maintenance />} />
+          <Route path="/css" element={<CSS />} />
+          <Route path="/css/introduction" element={<CSSIntroduction />} />
+          <Route path="/css/syntax-and-selectors" element={<CSSSyntaxAndSelectors />} />
+          <Route path="/css/colors-and-backgrounds" element={<ColorsAndBackgrounds />} />
+          <Route path="/css/text-styling" element={<TextStyling />} />
+          <Route path="/css/box-model" element={<BoxModel />} />
+          <Route path="/css/positioning" element={<Positioning />} />
+          <Route path="/css/flexbox-basics" element={<FlexboxBasics />} />
+          <Route path="/css/grid-basics" element={<GridBasics />} />
+          <Route path="/css/units" element={<CSSUnits />} />
+          <Route path="/css/links-and-buttons" element={<LinksAndButtons />} />
+          <Route path="/css/lists-styling" element={<ListsStyling />} />
+          <Route path="/css/forms-styling" element={<FormsStyling />} />
+          <Route path="/css/media-queries" element={<MediaQueries />} />
+          <Route path="/css/advanced-selectors" element={<AdvancedSelectors />} />
+          <Route path="/css/variables" element={<CSSVariables />} />
+          <Route path="/css/transitions-and-animations" element={<TransitionsAndAnimations />} />
+          <Route path="/css/transformations" element={<Transformations />} />
+          <Route path="/css/advanced-flexbox" element={<AdvancedFlexbox />} />
+          <Route path="/css/advanced-grid" element={<AdvancedGrid />} />
+          <Route path="/css/custom-fonts-and-typography" element={<CustomFontsAndTypography />} />
+          <Route path="/css/specificity-and-inheritance" element={<SpecificityAndInheritance />} />
+          <Route path="/css/shadow-effects" element={<ShadowEffects />} />
+          <Route path="/css/clipping-and-masking" element={<ClippingAndMasking />} />
+          <Route path="/css/frameworks" element={<CSSFrameworks />} />
 
           {/* JavaScript Routes */}
           <Route path="/javascript" element={<Javascript />} />
