@@ -163,7 +163,7 @@ div {
           <li>Avoid excessive animations that may distract users or impact performance.</li>
         </ul>
 
-        <Bottom back="/css/cssvariables" next="/css/csstransformations" />
+        <Bottom back="/css/css-variables" next="/css/css-transformations" />
       </div>
     </div>
   );

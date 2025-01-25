@@ -148,7 +148,7 @@ const CSSFlexboxBasics = () => {
           </li>
         </ul>
 
-        <Bottom back="/css/positioning" next="/css/gridbasics" />
+        <Bottom back="/css/positioning" next="/css/grid-basics" />
       </div>
     </div>
   );

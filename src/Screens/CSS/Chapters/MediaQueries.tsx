@@ -163,7 +163,7 @@ const CSSMediaQueries = () => {
   }
 }`}</Code>
 
-        <Bottom back="/css/formsstyling" next="/css/advancedselectors" />
+        <Bottom back="/css/forms-styling" next="/css/advanced-selectors" />
       </div>
     </div>
   );

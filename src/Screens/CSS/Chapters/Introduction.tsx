@@ -115,7 +115,7 @@ p {
           <li>Organize CSS files logically for easy navigation and updates.</li>
         </ul>
 
-        <Bottom back="/css/home" next="/css/syntaxandselectors" />
+        <Bottom back="/css" next="/css/css-syntax-and-selectors" />
       </div>
     </div>
   );

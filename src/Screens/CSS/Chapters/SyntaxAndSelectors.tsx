@@ -129,7 +129,7 @@ p {
           <li>Organize your CSS by grouping related styles together.</li>
         </ul>
 
-        <Bottom back="/css/introduction" next="/css/colorsandbackgrounds" />
+        <Bottom back="/css/introduction-to-css" next="/css/colors-and-backgrounds" />
       </div>
     </div>
   );

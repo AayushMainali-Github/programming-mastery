@@ -113,7 +113,7 @@ h1 {
           <li>Keep font sizes consistent for a professional look.</li>
         </ul>
 
-        <Bottom back="/css/colorsandbackgrounds" next="/css/boxmodel" />
+        <Bottom back="/css/colors-and-backgrounds" next="/css/box-model" />
       </div>
     </div>
   );

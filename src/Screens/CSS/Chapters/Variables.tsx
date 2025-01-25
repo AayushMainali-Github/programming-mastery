@@ -134,7 +134,7 @@ toggleButton.addEventListener('click', () => {
   document.body.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
 });`}</Code>
 
-        <Bottom back="/css/advancedselectors" next="/css/transitionsandanimations" />
+        <Bottom back="/css/advanced-selectors" next="/css/transitions-and-animations" />
       </div>
     </div>
   );

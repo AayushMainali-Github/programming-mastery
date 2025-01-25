@@ -147,7 +147,7 @@ body {
           </li>
         </ul>
 
-        <Bottom back="/css/advancedgrid" next="/css/cssspecificityandinheritance" />
+        <Bottom back="/css/advanced-grid" next="/css/css-specificity-and-inheritance" />
       </div>
     </div>
   );

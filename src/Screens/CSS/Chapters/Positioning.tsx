@@ -115,7 +115,7 @@ const CSSPositioning = () => {
           </li>
         </ul>
 
-        <Bottom back="/css/boxmodel" next="/css/flexboxbasics" />
+        <Bottom back="/css/box-model" next="/css/flexbox-basics" />
       </div>
     </div>
   );

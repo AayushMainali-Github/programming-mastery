@@ -135,7 +135,7 @@ div {
           </li>
         </ul>
 
-        <Bottom back="/css/transitionsandanimations" next="/css/advancedflexbox" />
+        <Bottom back="/css/transitions-and-animations" next="/css/advanced-flexbox" />
       </div>
     </div>
   );

@@ -136,7 +136,7 @@ ul.custom-list li {
           <li>Test marker visibility and alignment across devices.</li>
         </ul>
 
-        <Bottom back="/css/linksandbuttons" next="/css/formsstyling" />
+        <Bottom back="/css/links-and-buttons-styling" next="/css/forms-styling" />
       </div>
     </div>
   );

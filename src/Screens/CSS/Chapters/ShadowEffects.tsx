@@ -117,7 +117,7 @@ h1 {
           <li>Use inset shadows sparingly for specific effects.</li>
         </ul>
 
-        <Bottom back="/css/cssspecificityandinheritance" next="/css/clippingandmasking" />
+        <Bottom back="/css/css-specificity-and-inheritance" next="/css/clipping-and-masking" />
       </div>
     </div>
   );

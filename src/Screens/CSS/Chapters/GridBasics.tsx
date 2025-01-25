@@ -114,7 +114,7 @@ const CSSGridBasics = () => {
           </li>
         </ul>
 
-        <Bottom back="/css/flexboxbasics" next="/css/cssunits" />
+        <Bottom back="/css/flexbox-basics" next="/css/css-units" />
       </div>
     </div>
   );

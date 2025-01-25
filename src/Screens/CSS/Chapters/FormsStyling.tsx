@@ -159,7 +159,7 @@ form input, form button {
           </li>
         </ul>
 
-        <Bottom back="/css/listsstyling" next="/css/mediaqueries" />
+        <Bottom back="/css/lists-styling" next="/css/media-queries" />
       </div>
     </div>
   );

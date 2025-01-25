@@ -140,7 +140,7 @@ const CSSFrameworks = () => {
           <li>Minimize unused classes in production to optimize performance.</li>
         </ul>
 
-        <Bottom back="/css/clippingandmasking" next="/css/summary" />
+        <Bottom back="/css/clipping-and-masking" next="/css" />
       </div>
     </div>
   );

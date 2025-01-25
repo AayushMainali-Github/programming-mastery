@@ -151,7 +151,7 @@ ul li:nth-child(odd) {
           <li>Keep styles readable and organized when using advanced selectors.</li>
         </ul>
 
-        <Bottom back="/css/mediaqueries" next="/css/cssvariables" />
+        <Bottom back="/css/media-queries" next="/css/css-variables" />
       </div>
     </div>
   );

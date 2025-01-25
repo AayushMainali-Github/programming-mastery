@@ -138,7 +138,7 @@ const CSSBoxModel = () => {
           <li>Adjust padding and margin to create consistent spacing across your design.</li>
         </ul>
 
-        <Bottom back="/css/textstyling" next="/css/positioning" />
+        <Bottom back="/css/text-styling" next="/css/positioning" />
       </div>
     </div>
   );

@@ -181,7 +181,7 @@ flex: grow shrink basis;
           </li>
         </ul>
 
-        <Bottom back="/css/csstransformations" next="/css/advancedgrid" />
+        <Bottom back="/css/css-transformations" next="/css/advanced-grid" />
       </div>
     </div>
   );

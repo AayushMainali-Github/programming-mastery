@@ -129,7 +129,7 @@ p {
           <li>Use inheritance wisely to avoid redundant styles.</li>
         </ul>
 
-        <Bottom back="/css/customfontsandtypography" next="/css/shadoweffects" />
+        <Bottom back="/css/custom-fonts-and-typography" next="/css/shadow-effects" />
       </div>
     </div>
   );

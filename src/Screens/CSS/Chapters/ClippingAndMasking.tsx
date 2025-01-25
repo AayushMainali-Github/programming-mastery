@@ -114,7 +114,7 @@ div {
           <li>Optimize mask images to reduce file sizes and improve performance.</li>
         </ul>
 
-        <Bottom back="/css/shadoweffects" next="/css/cssframeworks" />
+        <Bottom back="/css/shadow-effects" next="/css/css-frameworks" />
       </div>
     </div>
   );

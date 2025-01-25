@@ -159,7 +159,7 @@ const CSSAdvancedGrid = () => {
           <li>Test grid layouts on various devices and browsers for compatibility.</li>
         </ul>
 
-        <Bottom back="/css/advancedflexbox" next="/css/customfontsandtypography" />
+        <Bottom back="/css/advanced-flexbox" next="/css/custom-fonts-and-typography" />
       </div>
     </div>
   );

@@ -57,7 +57,7 @@ import TransitionsAndAnimations from "../Screens/CSS/Chapters/TransitionsAndAnim
 import Transformations from "../Screens/CSS/Chapters/Transformations";
 import AdvancedFlexbox from "../Screens/CSS/Chapters/AdvancedFlexbox";
 import AdvancedGrid from "../Screens/CSS/Chapters/AdvancedGrid";
-import CustomFontsAndTypography from "../Screens/CSS/Chapters/CustomFontsAndTypography";
+import CustomFontsTypography from "../Screens/CSS/Chapters/CustomFontsAndTypography";
 import SpecificityAndInheritance from "../Screens/CSS/Chapters/SpecificityAndInheritance";
 import ShadowEffects from "../Screens/CSS/Chapters/ShadowEffects";
 import ClippingAndMasking from "../Screens/CSS/Chapters/ClippingAndMasking";
@@ -174,30 +174,30 @@ const App = () => {
 
           {/* CSS Routes */}
           <Route path="/css" element={<CSS />} />
-          <Route path="/css/introduction" element={<CSSIntroduction />} />
-          <Route path="/css/syntax-and-selectors" element={<CSSSyntaxAndSelectors />} />
+          <Route path="/css/introduction-to-css" element={<CSSIntroduction />} />
+          <Route path="/css/css-syntax-and-selectors" element={<CSSSyntaxAndSelectors />} />
           <Route path="/css/colors-and-backgrounds" element={<ColorsAndBackgrounds />} />
           <Route path="/css/text-styling" element={<TextStyling />} />
           <Route path="/css/box-model" element={<BoxModel />} />
           <Route path="/css/positioning" element={<Positioning />} />
           <Route path="/css/flexbox-basics" element={<FlexboxBasics />} />
           <Route path="/css/grid-basics" element={<GridBasics />} />
-          <Route path="/css/units" element={<CSSUnits />} />
-          <Route path="/css/links-and-buttons" element={<LinksAndButtons />} />
+          <Route path="/css/css-units" element={<CSSUnits />} />
+          <Route path="/css/links-and-buttons-styling" element={<LinksAndButtons />} />
           <Route path="/css/lists-styling" element={<ListsStyling />} />
           <Route path="/css/forms-styling" element={<FormsStyling />} />
           <Route path="/css/media-queries" element={<MediaQueries />} />
           <Route path="/css/advanced-selectors" element={<AdvancedSelectors />} />
-          <Route path="/css/variables" element={<CSSVariables />} />
+          <Route path="/css/css-variables" element={<CSSVariables />} />
           <Route path="/css/transitions-and-animations" element={<TransitionsAndAnimations />} />
-          <Route path="/css/transformations" element={<Transformations />} />
+          <Route path="/css/css-transformations" element={<Transformations />} />
           <Route path="/css/advanced-flexbox" element={<AdvancedFlexbox />} />
           <Route path="/css/advanced-grid" element={<AdvancedGrid />} />
-          <Route path="/css/custom-fonts-and-typography" element={<CustomFontsAndTypography />} />
-          <Route path="/css/specificity-and-inheritance" element={<SpecificityAndInheritance />} />
+          <Route path="/css/custom-fonts-and-typography" element={<CustomFontsTypography />} />
+          <Route path="/css/css-specificity-and-inheritance" element={<SpecificityAndInheritance />} />
           <Route path="/css/shadow-effects" element={<ShadowEffects />} />
           <Route path="/css/clipping-and-masking" element={<ClippingAndMasking />} />
-          <Route path="/css/frameworks" element={<CSSFrameworks />} />
+          <Route path="/css/css-frameworks" element={<CSSFrameworks />} />
 
           {/* JavaScript Routes */}
           <Route path="/javascript" element={<Javascript />} />

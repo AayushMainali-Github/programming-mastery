@@ -105,7 +105,7 @@ const CSSColorsAndBackgrounds = () => {
           <li>Optimize background images for faster load times.</li>
         </ul>
 
-        <Bottom back="/css/syntaxandselectors" next="/css/textstyling" />
+        <Bottom back="/css/css-syntax-and-selectors" next="/css/text-styling" />
       </div>
     </div>
   );

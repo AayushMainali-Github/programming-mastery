@@ -134,7 +134,7 @@ div.container div {
           </li>
         </ul>
 
-        <Bottom back="/css/gridbasics" next="/css/linksandbuttons" />
+        <Bottom back="/css/grid-basics" next="/css/links-and-buttons-styling" />
       </div>
     </div>
   );

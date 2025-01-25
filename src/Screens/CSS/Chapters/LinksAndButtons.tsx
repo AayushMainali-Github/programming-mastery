@@ -107,7 +107,7 @@ button.btn:hover {
           <li>Avoid removing focus outlines unless replaced with a visually distinct alternative.</li>
         </ul>
 
-        <Bottom back="/css/cssunits" next="/css/listsstyling" />
+        <Bottom back="/css/css-units" next="/css/lists-styling" />
       </div>
     </div>
   );
