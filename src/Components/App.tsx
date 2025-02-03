@@ -4,13 +4,13 @@ import Home from "../Screens/Home/Home";
 import HTML from "../Screens/HTML/HTML";
 import CSS from "../Screens/CSS/CSS";
 import Javascript from "../Screens/Javascript/Javascript";
-import NodeJS from "../Screens/NodeJS/NodeJS";
-import Typescript from "../Screens/Typescript/Typescript";
+// import NodeJS from "../Screens/NodeJS/NodeJS";
+// import Typescript from "../Screens/Typescript/Typescript";
 import Python from "../Screens/Python/Python";
 import C from "../Screens/C/C";
-import Cpp from "../Screens/Cpp/Cpp";
-import Java from "../Screens/Java/Java";
-import Sql from "../Screens/SQL/SQL";
+// import Cpp from "../Screens/Cpp/Cpp";
+// import Java from "../Screens/Java/Java";
+// import Sql from "../Screens/SQL/SQL";
 import Layout from "./Layout";
 
 // HTML Chapter Imports
