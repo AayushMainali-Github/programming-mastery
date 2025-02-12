@@ -4,7 +4,7 @@ import Home from "../Screens/Home/Home";
 import HTML from "../Screens/HTML/HTML";
 import CSS from "../Screens/CSS/CSS";
 import Javascript from "../Screens/Javascript/Javascript";
-// import NodeJS from "../Screens/NodeJS/NodeJS";
+import NodeJS from "../Screens/NodeJS/NodeJS";
 // import Typescript from "../Screens/Typescript/Typescript";
 import Python from "../Screens/Python/Python";
 import C from "../Screens/C/C";
@@ -91,6 +91,33 @@ import ErrorHandling from "../Screens/Javascript/Chapters/ErrorHandling";
 import LocalStorageSessionStorage from "../Screens/Javascript/Chapters/LocalStorageSessionStorage";
 import WebAPIsOverview from "../Screens/Javascript/Chapters/WebAPIsOverview";
 import ModulesAndImports from "../Screens/Javascript/Chapters/ModulesAndImports";
+
+// NodeJS Chapter Imports
+import IntroductionToNodeJS from "../Screens/NodeJS/Chapters/Introduction";
+import NodeEnvironmentSetup from "../Screens/NodeJS/Chapters/EnvironmentSetup";
+import NodeJSBasics from "../Screens/NodeJS/Chapters/Basics";
+import ModulesAndRequire from "../Screens/NodeJS/Chapters/ModulesAndRequire";
+import CoreModules from "../Screens/NodeJS/Chapters/CoreModules";
+import WorkingWithNpm from "../Screens/NodeJS/Chapters/WorkingWithNpm";
+import FileSystemOperations from "../Screens/NodeJS/Chapters/FileSystemOperations";
+import HTTPServerBasics from "../Screens/NodeJS/Chapters/HTTPServerBasics";
+import Routing from "../Screens/NodeJS/Chapters/Routing";
+import AsynchronousProgrammingBasics from "../Screens/NodeJS/Chapters/AsynchronousProgrammingBasics";
+import StreamsAndBuffer from "../Screens/NodeJS/Chapters/StreamsAndBuffer";
+import ExpressBasics from "../Screens/NodeJS/Chapters/ExpressBasics";
+import MiddlewareInExpress from "../Screens/NodeJS/Chapters/MiddlewareInExpress";
+import RestfulApis from "../Screens/NodeJS/Chapters/RestfulApis";
+import WorkingWithDatabases from "../Screens/NodeJS/Chapters/WorkingWithDatabases";
+import AuthenticationAndAuthorization from "../Screens/NodeJS/Chapters/AuthenticationAndAuthorization";
+import NodeErrorHandling from "../Screens/NodeJS/Chapters/ErrorHandling";
+import RealtimeCommunication from "../Screens/NodeJS/Chapters/RealtimeCommunication";
+import ThirdPartyApis from "../Screens/NodeJS/Chapters/ThirdPartyApis";
+import FileUploads from "../Screens/NodeJS/Chapters/FileUploads";
+import Testing from "../Screens/NodeJS/Chapters/Testing";
+import DeployingNodejsApplications from "../Screens/NodeJS/Chapters/DeployingNodejsApplications";
+import PerformanceOptimization from "../Screens/NodeJS/Chapters/PerformanceOptimization";
+import IntroductionToGraphql from "../Screens/NodeJS/Chapters/IntroductionToGraphql";
+import BuildingAFullStackApplication from "../Screens/NodeJS/Chapters/BuildingAFullStackApplication";
 
 // Python Chapter Imports
 import PythonIntroduction from "../Screens/Python/Chapters/Introduction";
@@ -230,7 +257,32 @@ const App = () => {
           <Route path="/javascript/webapisoverview" element={<WebAPIsOverview />} />
 
           {/* Node JS Routes */}
-          <Route path="/nodejs" element={<Maintenance />} />
+          <Route path="/nodejs" element={<NodeJS />} />
+          <Route path="/nodejs/introduction-to-nodejs" element={<IntroductionToNodeJS />} />
+          <Route path="/nodejs/environment-setup" element={<NodeEnvironmentSetup />} />
+          <Route path="/nodejs/nodejs-basics" element={<NodeJSBasics />} />
+          <Route path="/nodejs/modules-and-require" element={<ModulesAndRequire />} />
+          <Route path="/nodejs/nodejs-core-modules" element={<CoreModules />} />
+          <Route path="/nodejs/working-with-npm" element={<WorkingWithNpm />} />
+          <Route path="/nodejs/file-system-operations" element={<FileSystemOperations />} />
+          <Route path="/nodejs/http-server-basics" element={<HTTPServerBasics />} />
+          <Route path="/nodejs/routing" element={<Routing />} />
+          <Route path="/nodejs/asynchronous-programming-basics" element={<AsynchronousProgrammingBasics />} />
+          <Route path="/nodejs/streams-and-buffers" element={<StreamsAndBuffer />} />
+          <Route path="/nodejs/express-basics" element={<ExpressBasics />} />
+          <Route path="/nodejs/middleware-in-express" element={<MiddlewareInExpress />} />
+          <Route path="/nodejs/restful-apis" element={<RestfulApis />} />
+          <Route path="/nodejs/working-with-databases" element={<WorkingWithDatabases />} />
+          <Route path="/nodejs/authentication-and-authorization" element={<AuthenticationAndAuthorization />} />
+          <Route path="/nodejs/error-handling" element={<NodeErrorHandling />} />
+          <Route path="/nodejs/realtime-communication" element={<RealtimeCommunication />} />
+          <Route path="/nodejs/third-party-apis" element={<ThirdPartyApis />} />
+          <Route path="/nodejs/file-uploads" element={<FileUploads />} />
+          <Route path="/nodejs/testing" element={<Testing />} />
+          <Route path="/nodejs/deploying-nodejs-applications" element={<DeployingNodejsApplications />} />
+          <Route path="/nodejs/performance-optimization" element={<PerformanceOptimization />} />
+          <Route path="/nodejs/introduction-to-graphql" element={<IntroductionToGraphql />} />
+          <Route path="/nodejs/building-a-full-stack-application" element={<BuildingAFullStackApplication />} />
 
           {/* Typescript Routes */}
           <Route path="/typescript" element={<Maintenance />} />
